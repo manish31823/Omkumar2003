@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <!-- Define gradients for the balls -->
+  <defs>
+    <radialGradient id="ballGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#777"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Group for Ball 1 -->
+  <g>
+    <circle cx="30" cy="30" r="30" fill="url(#ballGradient)" stroke="#000" stroke-width="1">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 150,345; 0,0" keyTimes="0;0.5;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <image x="0" y="0" width="60" height="60" xlink:href="https://plus.unsplash.com/premium_photo-1710385174244-78d7f68ae13d?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 150,345; 0,0" keyTimes="0;0.5;1" dur="3s" repeatCount="indefinite"/>
+    </image>
+  </g>
+
+
+</svg>
