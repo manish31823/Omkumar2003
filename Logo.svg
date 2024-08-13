@@ -1,0 +1,26 @@
+<svg width="205px" height="72px" viewBox="0 0 205 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define the background color -->
+    <rect id="background" x="0" y="0" width="205" height="72" fill="#1e293b" />
+    
+    <!-- Define the mask -->
+    <mask id="mask">
+      <rect x="0" y="0" width="205" height="72" fill="white" />
+      <!-- Mask element that will animate -->
+      <rect id="mask-element" x="0" y="0" width="50" height="72" fill="#89cb66">
+        <animate attributeName="x" from="0" to="129" dur="1s" repeatCount="indefinite" keyTimes="0;1" keySplines="0.25 0.1 0.25 1" calcMode="spline"/>
+      </rect>
+    </mask>
+  </defs>
+  
+  <!-- Background rectangle -->
+  <use href="#background" />
+  
+  <!-- Text with mask applied -->
+  <text x="10" y="50" font-size="36" fill="white" mask="url(#mask)">Om Kumar</text>
+  
+  <!-- Credits text -->
+  <text x="50%" y="90" font-size="12" fill="white" text-anchor="middle" font-style="italic">
+    Inspired by <a href="https://dribbble.com/shots/2076176-Focus" style="fill:white;text-decoration:none">this great shot</a> by @eldinheric.
+  </text>
+</svg>
