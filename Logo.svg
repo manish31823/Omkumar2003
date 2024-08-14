@@ -1,7 +1,7 @@
 <svg width="205px" height="72px" viewBox="0 0 205 72" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Define the background color -->
-    <rect id="background" x="0" y="0" width="205" height="72" fill="#1e293b" />
+  <rect id="background" x="0" y="0" width="205" height="72" fill="#555555" rx="15" ry="15" />
     
     <!-- Define the mask -->
     <mask id="mask">
